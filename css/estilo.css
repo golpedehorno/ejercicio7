@@ -1,0 +1,72 @@
+body{
+    
+    font-family: Calibri;
+    padding: 10px 20px;
+}
+
+h1 {
+	color: #FFFFFF;
+	background-color: #ffbd33;
+	padding: 10px;
+	border-radius:0 20px;
+}
+
+
+#contacto{
+	width: 550px;
+	height: 100%;
+	margin: auto;
+	border: 10px solid #ffbd33;
+	padding: 30px;
+	list-style: none;
+	border-radius:0 20px;
+}
+
+li{
+	
+	list-style: none;
+	padding: 10px;
+	text-shadow: 1px 1px 2px #ffbd33;
+	box-shadow:  0.005px 2px 8px black;
+}
+input{
+	height: 20px;
+	width: 100%;
+	background-color: #fadfa5;
+}
+
+
+input:invalid{
+	border: 3px solid rgb(245, 81, 81);
+}
+
+h2{
+	text-transform: uppercase;
+	text-align: center;
+	color: #ffbd33;
+	text-decoration: underline;
+}
+.boton{
+	height: 50px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 15px;
+	background-color: #ffbd33;
+	border-style: none;
+	border-radius:0 20px;
+	color: #FFFFFF;
+	padding: 10px;
+
+	
+}
+button{
+	width: 120px;
+	position: fixed;
+	top: 200px;
+	left: 0;
+
+
+}
+.boton:hover{
+	background-color: grey;
+}

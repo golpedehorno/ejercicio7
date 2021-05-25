@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Evaluación 7</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+	
+		<h1>Evaluación Unidad VII</h1>
+    
+    <button onclick="mostrar()" class="boton">Contacto</button>
+
+    <div id="contacto" style="display: none;">
+        <h2>contactanos</h2>
+        <div id="enviado"></div>
+        
+        <form method="POST" action="#" id="formu">
+
+            <ul>
+                <li>Nombre: <input type="text" name="nombre" required pattern="[a-zA-Z0-9]{2,12}" title="Utilice más de dos letras para formar su nombre"></li>
+                <li>Apellido: <input type="text" name="apellido" required pattern="[a-zA-Z]{4,12}" title="Utilice más de cuatro letras para formar su apellido"></li>
+                <li>Email: <input type="email" name="mail" required></li>
+                <li>Cantidad de personas: <input type="number" name="personas" min="1" max="10" required></li>
+                <li>Check in: <input type="date" name="checkin" required></li>
+                <li>Check out: <input type="date" name="checkout" required></li>
+                <li>Observaciones:<textarea name="observaciones" id="" cols="30" rows="10"></textarea></li>
+
+                <li ><input type="submit" class="boton" onclick="enviar()"></li>
+            </ul>
+
+        </form>
+    </div>
+       
+	<script src="js/script.js"></script>
+</body>
+</html>
